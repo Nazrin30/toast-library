@@ -2,7 +2,9 @@
 buildscript {
     repositories {
         google()
-        mavenCentral()
+        maven {
+            url 'https://dl.google.com/dl/android/maven2'
+        }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.4"
